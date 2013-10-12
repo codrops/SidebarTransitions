@@ -28,6 +28,7 @@
 	function init() {
 
 		var container = document.getElementById( 'st-container' ),
+	            	reset = document.getElementById( 'closeMenu' ),
 			buttons = Array.prototype.slice.call( document.querySelectorAll( '#st-trigger-effects > button' ) ),
 			// event type (if mobile use touch events)
 			eventtype = mobilecheck() ? 'touchstart' : 'click',
@@ -38,6 +39,12 @@
 				if( !hasParentClass( evt.target, 'st-menu' ) ) {
 					resetMenu();
 					document.removeEventListener( eventtype, bodyClickFn );
+				}
+			},
+			resetClickFn = function(evt) {
+				if (evt.target == reset) {
+					resetMenu();
+					document.removeEventListener(eventtype, bodyClickFn);
 				}
 			};
 
@@ -53,6 +60,7 @@
 					classie.add( container, 'st-menu-open' );
 				}, 25 );
 				document.addEventListener( eventtype, bodyClickFn );
+				document.addEventListener( eventtype, resetClickFn );
 			});
 		} );
 
