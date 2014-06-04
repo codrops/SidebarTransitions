@@ -5,16 +5,7 @@
 	box-sizing: border-box;
 }
 
-html,
-body,
-.st-container,
-.st-pusher,
 .st-content {
-	height: 100%;
-}
-
-.st-content {
-	overflow-y: scroll;
 	background: #f3efe0;
 }
 
@@ -59,7 +50,7 @@ body,
 }
 
 .st-menu {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	z-index: 100;
@@ -72,7 +63,7 @@ body,
 }
 
 .st-menu::after {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	right: 0;
 	width: 100%;
