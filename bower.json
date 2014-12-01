@@ -1,0 +1,14 @@
+{
+  "name": "sidebar-transitions",
+  "version": "1.0.0",
+  "main": [
+    "dist/css/sidebar-transitions.min.css",
+    "dist/js/sidebar-transitions.min.js"
+  ],
+  "dependencies": {
+    "classie": "~1.0.1",
+    "jquery": "~2.1.1",
+    "bootstrap": "~3.3.1",
+    "normalize.css": "~3.0.2"
+  }
+}
