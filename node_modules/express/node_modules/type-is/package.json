@@ -1,0 +1,83 @@
+{
+  "name": "type-is",
+  "description": "Infer the content-type of a request.",
+  "version": "1.3.2",
+  "author": {
+    "name": "Jonathan Ong",
+    "email": "me@jongleberry.com",
+    "url": "http://jongleberry.com"
+  },
+  "contributors": [
+    {
+      "name": "Douglas Christopher Wilson",
+      "email": "doug@somethingdoug.com"
+    }
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/expressjs/type-is"
+  },
+  "dependencies": {
+    "media-typer": "0.2.0",
+    "mime-types": "~1.0.1"
+  },
+  "devDependencies": {
+    "istanbul": "0.2.11",
+    "mocha": "*",
+    "should": "*"
+  },
+  "engines": {
+    "node": ">= 0.8"
+  },
+  "scripts": {
+    "test": "mocha --require should --reporter spec --check-leaks --bail test/",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
+  },
+  "gitHead": "d76790909638d4cf1785e09858db5576f91f710f",
+  "bugs": {
+    "url": "https://github.com/expressjs/type-is/issues"
+  },
+  "homepage": "https://github.com/expressjs/type-is",
+  "_id": "type-is@1.3.2",
+  "_shasum": "4f2a5dc58775ca1630250afc7186f8b36309d1bb",
+  "_from": "type-is@~1.3.2",
+  "_npmVersion": "1.4.16",
+  "_npmUser": {
+    "name": "jongleberry",
+    "email": "jonathanrichardong@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "jongleberry",
+      "email": "jonathanrichardong@gmail.com"
+    },
+    {
+      "name": "dougwilson",
+      "email": "doug@somethingdoug.com"
+    },
+    {
+      "name": "tjholowaychuk",
+      "email": "tj@vision-media.ca"
+    },
+    {
+      "name": "shtylman",
+      "email": "shtylman@gmail.com"
+    },
+    {
+      "name": "mscdex",
+      "email": "mscdex@mscdex.net"
+    },
+    {
+      "name": "fishrock123",
+      "email": "fishrock123@rocketmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "4f2a5dc58775ca1630250afc7186f8b36309d1bb",
+    "tarball": "http://registry.npmjs.org/type-is/-/type-is-1.3.2.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/type-is/-/type-is-1.3.2.tgz"
+}
