@@ -28,13 +28,13 @@ module.exports = function(grunt) {
                 files: [{
                     expand: true,
                     cwd: 'client/css/',
-                    src: ['sidebar-transitions.css'],
+                    src: ['<%= pkg.name %>.css'],
                     dest: 'dist/css/',
                     ext: '.min.css'
                 }, {
                     expand: true,
                     cwd: 'client/css/',
-                    src: ['sidebar-transitions-right.css'],
+                    src: ['<%= pkg.name %>-right.css'],
                     dest: 'dist/css/',
                     ext: '.min.css'
                 }]
