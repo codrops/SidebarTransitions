@@ -1,6 +1,12 @@
 {
   "name": "SidebarTransitions",
   "homepage": "https://github.com/codrops/SidebarTransitions",
+  "main": [
+    "css/component.css",
+    "js/modernizr.custom.js",
+    "js/classie.js",
+    "js/sidebarEffects.js"
+  ],
   "_release": "ab5f998ca8",
   "_resolution": {
     "type": "branch",
