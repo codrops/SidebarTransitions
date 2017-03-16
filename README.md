@@ -3,8 +3,8 @@ Sidebar Transitions
 =========
 Some inspiration for transition effects for off-canvas navigations.
 
-[article on Codrops](http://tympanus.net/codrops/?p=16292)
+[Article on Codrops](http://tympanus.net/codrops/2013/08/28/transitions-for-off-canvas-navigations/)
 
-[demo](http://tympanus.net/Development/SidebarTransitions/)
+[Demo](http://tympanus.net/Development/SidebarTransitions/)
 
 [LICENSING & TERMS OF USE](http://tympanus.net/codrops/licensing/)
